@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3bf0adef-fc11-4ced-9b81-9ce8791eb73b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>python_game2.0.py</StartupFile>
+    <StartupFile>jordi.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="jordi.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="python_game2.0.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
