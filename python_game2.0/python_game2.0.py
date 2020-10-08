@@ -39,8 +39,8 @@ if cijfercheck("je wordt ergens wakker waar je nog nooit bent geweest! je kunt t
         
     else:
         print("je loopt verder, je ziet niks meer dat eetbaar lijkt.")
-        if cijfercheck("je ziet wel een grot met een meer, je kunt twee dingen kiezen", "slapen in de grot", "verderlopen")
-    
+        if cijfercheck("je ziet wel een grot met een meer, je kunt twee dingen kiezen", "slapen in de grot", "verderlopen")==1:
+            print("Goed zo!")
 
 else:
     print("2")
